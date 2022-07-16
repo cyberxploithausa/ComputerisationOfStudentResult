@@ -13,13 +13,13 @@ as an executable
 
 
 # Usage
-1. for python:
+1. For python:
     > - apt install git / pip install git
     > - git clone https://github.com/cyberxploit/ComputerisationOfStudentResult.git
     > - ls / dir
     > - python3 main.py
 
-2. for windows executable:
+2. For windows executable:
     > - download the exec
     > - lunch it instance by double clicking on the app.
 
