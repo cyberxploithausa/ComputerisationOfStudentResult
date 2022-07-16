@@ -14,10 +14,10 @@ def page():
         root.withdraw()
         admin.staff()
 
-    def student():
+    def dalibai():
         #print("Student")
         root.withdraw()
-        student.student()
+        student.students()
 
     #main page / first page (tkinter object window.)
     main = Frame(root, bg="black")
@@ -37,8 +37,10 @@ def page():
     admin_lbl = Button(main, text="Staff", bd=10, font=("Consolas", 40, "bold"), command=staff )
     admin_lbl.pack(pady=20)
 
-    stud_lbl = Button(main, text="Student", bd=15, font=("Consolas", 40, "bold"), command=student)
+    stud_lbl = Button(main, text="Student", bd=15, font=("Consolas", 40, "bold"), command=dalibai)
     stud_lbl.pack(pady=20)
+
+    #dalibai()
 
     root.mainloop()
 

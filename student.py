@@ -1,6 +1,6 @@
 from tkinter import *
 
-def student():
+def students():
     root = Tk()
     root.title("Welcome page")
     root.geometry("1350x3700+0+0")
